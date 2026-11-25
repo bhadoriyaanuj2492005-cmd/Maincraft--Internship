@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maincraft Technology</title>
+
+    <style>
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: #e8f6fa;
+            font-family: Arial, sans-serif;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+
+        /* Logo */
+
+        .logo {
+            height: 80px;
+            width: 200px;
+            object-fit: contain;
+        }
+
+        /* Navigation */
+
+        nav {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 60px;
+            background-color: #003846;
+            padding: 25px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #00d4ff;
+        }
+
+        /* Main Heading */
+
+        .firh {
+            text-align: center;
+            font-size: 55px;
+            color: #003846;
+            margin-top: 50px;
+        }
+
+        /* Hero Section */
+
+        main {
+            flex: 1;
+        }
+
+        .hero {
+            text-align: center;
+            background: linear-gradient(135deg, #003846, #087e8b);
+            color: white;
+            padding: 70px 20px;
+            margin: 40px;
+            border-radius: 20px;
+        }
+
+        .hero h1 {
+            font-size: 42px;
+            margin-bottom: 15px;
+        }
+
+        .hero h2 {
+            font-size: 25px;
+            margin-bottom: 20px;
+        }
+
+        .hero p {
+            font-size: 18px;
+            line-height: 1.8;
+            max-width: 750px;
+            margin: auto;
+        }
+
+        button {
+            background-color: #00d4ff;
+            color: #003846;
+            border: none;
+            padding: 14px 25px;
+            margin: 25px 10px 0;
+            border-radius: 8px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: white;
+        }
+
+        /* About Section */
+
+        .about, .skills, .projects {
+            text-align: center;
+            padding: 40px 20px;
+            margin: 20px;
+        }
+
+        .about h2, .skills h2, .projects h2 {
+            color: #003846;
+            font-size: 32px;
+            margin-bottom: 20px;
+        }
+
+        .about p, .skills p, .projects p {
+            font-size: 18px;
+            line-height: 1.8;
+        }
+
+        /* Footer */
+
+        footer {
+            background-color: #003846;
+            color: white;
+            padding: 40px 25px 15px;
+        }
+
+        .footer-container {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            gap: 30px;
+        }
+
+        .footer-section {
+            width: 250px;
+        }
+
+        .footer-section h2,
+        .footer-section h3 {
+            margin-bottom: 18px;
+        }
+
+        .footer-section p {
+            line-height: 1.7;
+        }
+
+        .footer-section a {
+            display: block;
+            color: white;
+            text-decoration: none;
+            margin-bottom: 12px;
+        }
+
+        .footer-section a:hover {
+            color: #00d4ff;
+        }
+
+        .footer-bottom {
+            text-align: center;
+            border-top: 1px solid gray;
+            margin-top: 30px;
+            padding-top: 20px;
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+    <!-- Logo -->
+
+    <img class="logo" src="Main Craft Technology Logo.png" alt="Maincraft Technology Logo">
+
+    <!-- Navigation -->
+
+    <nav>
+        <a href="#">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Services</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <!-- Main Heading -->
+
+    <h1 class="firh">Build Smarter With Maincrafts</h1>
+
+    <main>
+
+        <!-- Hero Section -->
+
+        <section class="hero">
+
+            <h1>Hello, I'm Anuj Singh</h1>
+
+            <h2>Computer Science Engineering Student</h2>
+
+            <p>
+                Welcome to my portfolio! I am a passionate web development
+                learner interested in creating modern and user-friendly
+                websites. I enjoy learning new technologies and building
+                creative projects.
+            </p>
+
+            <button onclick="location.href='#projects'">
+                View My Projects
+            </button>
+
+            <button onclick="location.href='#contact'">
+                Contact Me
+            </button>
+
+        </section>
+
+        <!-- About Section -->
+
+        <section class="about" id="about">
+
+            <h2>About Me</h2>
+
+            <p>
+                I am currently pursuing B.Tech in Computer Science Engineering.
+                I have an interest in HTML, CSS, JavaScript and programming.
+                My goal is to become a skilled software developer.
+            </p>
+
+        </section>
+
+        <!-- Skills Section -->
+
+        <section class="skills" id="skills">
+
+            <h2>My Skills</h2>
+
+            <p>
+                HTML | CSS | JavaScript | C++ | DBMS
+            </p>
+
+        </section>
+
+        <!-- Projects Section -->
+
+        <section class="projects" id="projects">
+
+            <h2>My Projects</h2>
+
+            <p>1. Notes Hub</p>
+            <p>2. CampusFind - Lost & Found</p>
+            <p>3. Personal Portfolio Website</p>
+
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+
+    <footer>
+
+        <div class="footer-container">
+
+            <div class="footer-section">
+
+                <h2>Maincraft Technology</h2>
+
+                <p>
+                    Explore the world of technology, where creativity
+                    meets innovation. Discover technology updates,
+                    digital knowledge and innovative ideas.
+                </p>
+
+            </div>
+
+            <div class="footer-section">
+
+                <h3>Quick Links</h3>
+
+                <a href="#">Home</a>
+                <a href="#about">About</a>
+                <a href="#skills">Services</a>
+                <a href="#contact">Contact</a>
+
+            </div>
+
+            <div class="footer-section">
+
+                <h3>Follow Us</h3>
+
+                <a href="#">Instagram</a>
+                <a href="#">Facebook</a>
+                <a href="#">LinkedIn</a>
+
+            </div>
+
+        </div>
+
+        <div class="footer-bottom">
+
+            <p>© 2026 Maincraft Technology | All Rights Reserved</p>
+
+        </div>
+
+    </footer>
+
+</body>
+
+</html>
